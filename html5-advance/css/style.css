@@ -1,0 +1,131 @@
+﻿ /* 
+Description: 
+Author: Viktor Ivanov
+*/ 
+
+#header, #wrapper-content, #content, #sidebar, #footer {
+	border: 1px solid #DCDCD0;
+	height: 200px;
+}
+	
+/*************************************************************	
+Reset  																						
+************************************************************/ 
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, 
+tfoot, thead, tr, th, td, article, aside, footer, header, hgroup, nav, section {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: none;
+	}
+	
+/*************************************************************	
+Globals  																						
+************************************************************/
+
+body
+{
+    background: #fff url(images/some-img.png) repeat-x top left;
+    font: normal normal 62.5% Verdana, helvetica, sans-serif;
+    line-height: 1;
+    color: #000;
+}
+
+#wrapper-site
+{
+    position: relative;
+    margin: 0 auto 10px auto;
+    width: 960px;
+    background: #fff;
+}
+
+/*************************************************************	
+Custom  																						
+************************************************************/
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*************************************************************	
+header        																						
+************************************************************/
+
+#header {
+
+}
+
+/*************************************************************	
+main - menu 																		
+************************************************************/
+
+#main-navi {
+    background: #fff url(images/some-img.png) repeat-x;
+}
+
+	#main-navi li {
+		margin: 10px;
+		padding: 10px;
+		float: left;
+	}
+
+/*************************************************************	
+Content        																						
+************************************************************/
+
+#wrapper-content {
+    
+}
+
+/*************************************************************	
+main-content																						*/
+
+#content {
+	width: 640px;
+	float: left;
+}
+
+/*************************************************************	
+main-content																						*/
+
+#sidebar {
+	width: 314px;
+	float: left;
+}
+
+/*************************************************************	
+footer        																						
+************************************************************/	
+
+#footer {
+
+}
